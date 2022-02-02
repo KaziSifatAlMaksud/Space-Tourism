@@ -1,13 +1,11 @@
 import Header from "./componant/Header";
 import { Container } from "react-bootstrap";
-
+import Discription from "./componant/Discription";
 function App() {
   return (
     <div className="App">
       <Header />
-      <Container>
-        <h1>Hello world</h1>
-      </Container>
+      <Discription/>
     </div>
   );
 }
