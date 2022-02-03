@@ -1,12 +1,21 @@
 import Header from "./componant/Header";
-import { Container } from "react-bootstrap";
-import Discription from "./componant/Discription";
+import {BrowserRouter, Routes , Route, Link} from 'react-router-dom';
+import HomeScreen from "./screen/HomeScreen";
+import Destination from "./screen/Destination";
+import { Col } from "react-bootstrap";
+import CrewScreen from "./screen/CrewScreen";
+import TechnologyScreen from "./screen/TechnologyScreen";
 function App() {
-  return (
-    <div className="App">
+  return (<BrowserRouter>
       <Header />
-      <Discription/>
-    </div>
+      <Routes> 
+        <Route exact path ='/' element = {<HomeScreen/>} />
+        <Route path ='/dstination/:id' element = {<Destination/>} />         
+        <Route path ='/crew/:id' element = {<CrewScreen/>} />         
+        <Route path ='/technology/:id' element = {<TechnologyScreen/>} />         
+                   
+      </Routes>      
+    </BrowserRouter>
   );
 }
 

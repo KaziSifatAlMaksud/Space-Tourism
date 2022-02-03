@@ -1,14 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
 body {
-  background-attachment: fixed;
-  background-image: url("./image/background-home-desktop.jpg");
+  
+}
+.background-img{
+  position: absolute;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-family: "Open Sans Condensed", sans-serif;
-  height: 80vh;
-  width: 100%;
+  min-height: 100vh;  
+  margin: -160px;
+  width: 109%;
+  z-index: -1;
 }
 .navim {
   color: #fff;
@@ -24,6 +28,7 @@ body {
 }
 .li {
   color: #fff;
+  text-decoration: none;
   position: relative;
   justify-content: space-between;
   padding: 0px 40px 0px 40px;
@@ -33,7 +38,7 @@ body {
 }
 .discrHome {
   position: absolute;
-  margin: 11% ;
+  margin: 11%;
   width: 35%;
   padding: 40px;
   text-align: left;
@@ -41,5 +46,5 @@ body {
   color: #fff;
 }
 .homeTitle {
-  font-size: 900%!important;
+  font-size: 900% !important;
 }
