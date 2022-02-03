@@ -11,7 +11,7 @@ body {
   background-repeat: no-repeat;
   color: #fff;
   font-family: "Open Sans Condensed", sans-serif;
-  min-height: 102vh;
+  min-height: 100vh;
   margin-top: -200px;
   width: 100%;
   z-index: -1;
@@ -36,6 +36,7 @@ body {
   justify-content: space-between;
   padding: 0px 40px 0px 40px;
 }
+.li.selected::after,
 .li:hover {
   border-bottom: 2px solid#fff;
 }
@@ -50,4 +51,14 @@ body {
 }
 .homeTitle {
   font-size: 900% !important;
+}
+.DstinatList {
+  display: block;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 60%;
+  text-decoration: none;
+}
+.smaNav {
+   margin-left: 280px;
 }
