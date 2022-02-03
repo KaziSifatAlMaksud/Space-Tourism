@@ -1,8 +1,7 @@
 import React from "react";
 import info from "../info";
 
-const Discription = ({id}) => {
-  
+const Discription = ({ id }) => {
   const product = info.find((x) => x._id === id);
   return (
     <>

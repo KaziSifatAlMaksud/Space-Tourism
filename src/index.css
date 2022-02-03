@@ -1,20 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
 body {
-  
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans Condensed", sans-serif;
 }
-.background-img{
+.background-img {
   position: absolute;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-family: "Open Sans Condensed", sans-serif;
-  min-height: 100vh;  
-  margin: -160px;
-  width: 109%;
+  min-height: 102vh;
+  margin-top: -200px;
+  width: 100%;
   z-index: -1;
 }
 .navim {
+  position: absolute;
   color: #fff;
   box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
   position: absolute;

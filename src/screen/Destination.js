@@ -9,11 +9,11 @@ const Destination = () => {
   console.log(id);
   const product = info.find((x) => x._id === id);
 
-  return (<div
+  return (
+    <div
       className="background-img"
       style={{ backgroundImage: `url(${image2})` }}
     >
-      <h1>{product.name}</h1>
       <Discription id={id} />
     </div>
   );

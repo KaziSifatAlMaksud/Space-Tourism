@@ -14,7 +14,6 @@ const CrewScreen = () => {
         className="background-img"
         style={{ backgroundImage: `url(${image3})` }}
       >
-        <h1>{product.name}</h1>
         <Discription id={id} />
       </div>
       );
