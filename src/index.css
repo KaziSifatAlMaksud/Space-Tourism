@@ -62,3 +62,7 @@ body {
 .smaNav {
    margin-left: 280px;
 }
+.dst{
+  position: absolute;
+  margin-left:-190%;
+}
