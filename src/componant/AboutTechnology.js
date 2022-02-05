@@ -1,16 +1,13 @@
-import React from "react";
-import { useParams } from "react-router-dom";
-import info from "../info";
-import Discription from "../componant/Discription";
-import SmallNav from "../componant/SmallNav";
-import { Col, Row, Image } from "react-bootstrap";
-
-const AboutDiscription = () => {
-  const { id } = useParams();
-  console.log(id);
-  const product = info.find((x) => x._id === id);
-  return (
-    <>
+import React from 'react';
+import { Row, Col, Image } from 'react-bootstrap';
+import { useParams } from 'react-router-dom';
+import technology from '../technology';
+import Discription from './Discription';
+import SmallNav from './SmallNav';
+const AboutTechnology = () => {
+    const { id } =useParams()
+      const product = technology.find((x) => x._id === id);
+  return <div>
       <div className="DstinatList">
         <Row>
           <Col  className="dst">
@@ -45,8 +42,8 @@ const AboutDiscription = () => {
           </Col>
         </Row>
       </div>
-    </>
-  );
+
+  </div>;
 };
 
-export default AboutDiscription;
+export default AboutTechnology;

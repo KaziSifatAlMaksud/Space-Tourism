@@ -36,7 +36,7 @@ body {
   justify-content: space-between;
   padding: 0px 40px 0px 40px;
 }
-.li.selected::after,
+
 .li:hover {
   border-bottom: 2px solid#fff;
 }
@@ -65,4 +65,7 @@ body {
 .dst{
   position: absolute;
   margin-left:-190%;
+}
+.dst-row{
+  padding-top: 80px;
 }

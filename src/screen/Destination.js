@@ -6,7 +6,6 @@ import image2 from "../image/background-destination-desktop.jpg";
 import AboutDiscription from "../componant/AboutDiscription";
 const Destination = () => {
   const { id } = useParams();
-  console.log(id);
   const product = info.find((x) => x._id === id);
   console.log(product);
   return (

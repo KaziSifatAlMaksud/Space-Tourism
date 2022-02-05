@@ -1,10 +1,9 @@
-
-const info = [
+const technology = [
   {
     _id: "1",
     heade6: "01. PICK YOUR DESTINATION",
     name: "EUROPA",
-    image: '/image/Destination/image-europa.png',
+    image: "/image/technology/image-launch-vehicle-portrait.jpg",
     discrptioin:
       "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
     distance: "628 mil. KM",
@@ -13,8 +12,8 @@ const info = [
   {
     _id: "2",
     heade6: "01. PICK YOUR DESTINATION",
-    name: "MARS",
-    image: '/image/Destination/image-mars.png',
+    name: "sifat",
+    image: "/image/technology/image-space-capsule-portrait.jpg",
     discrptioin:
       "Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. It’s two and a half times the size of Everest! ",
     distance: "225 mil",
@@ -41,4 +40,4 @@ const info = [
     time: "7 YEARS",
   },
 ];
-export default info;
+export default technology;
