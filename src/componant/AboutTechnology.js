@@ -34,8 +34,8 @@ const AboutTechnology = () => {
           </Col>
 
           <Col>
-            <Row className="" style={{ width: "600px" }}>
-              <Image src={product.image} alt={product.image} />
+            <Row style={{ width: "600px" }}>
+              <Image className="tacimage" src={product.image} alt={product.image} />
             </Row>
           </Col>
         </Row>

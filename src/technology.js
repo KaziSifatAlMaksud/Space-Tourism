@@ -4,7 +4,7 @@ const technology = [
     heade6: "03. SPACE LAUNCH 101",
     header1: "THE TERMINOLOGY...",
     name: "LAUNCH VEHICLE",
-    image: "/image/technology/image-launch-vehicle-portrait.jpg",
+    image: "/image/technology/image-spaceport-portrait.jpg",
     discrptioin:
       "The smallest of the four Galilean moons orbiting Jupiter, Europa is a winter lover’s dream. With an icy surface, it’s perfect for a bit of ice skating, curling, hockey, or simple relaxation in your snug wintery cabin.",
     distance: "628 mil. KM",
