@@ -40,6 +40,7 @@ body {
 .li:hover {
   border-bottom: 2px solid#fff;
 }
+
 .discrHome {
   position: absolute;
   margin: 11%;
@@ -53,19 +54,39 @@ body {
   font-size: 900% !important;
 }
 .DstinatList {
-  display: block;
   position: absolute;
   margin-top: 15%;
   margin-left: 60%;
   text-decoration: none;
 }
 .smaNav {
-   margin-left: 280px;
+  margin-left: 280px;
 }
-.dst{
+.dst {
   position: absolute;
-  margin-left:-190%;
+  margin-left: -190%;
 }
-.dst-row{
+.tackList {
+  width: 100%;
+  margin-top: 15%;
+}
+.dst-row {
   padding-top: 80px;
+}
+.takeNavbar {
+  width: 2%;
+  display: block;
+  position: relative;
+}
+.takli {
+  text-align: center;
+  display: flexbox;
+  flex-direction: column;
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 20px;
+  margin: 20px;
+  color: black;
+  background-color: #fff;
+  text-decoration: none;
 }
