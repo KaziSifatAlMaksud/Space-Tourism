@@ -82,11 +82,27 @@ body {
   text-align: center;
   display: flexbox;
   flex-direction: column;
-  border: 2px solid black;
+  border: 2px solid #fff;
+  color: #fff;
   border-radius: 50%;
-  padding: 20px;
+  padding: 40px;
   margin: 20px;
-  color: black;
-  background-color: #fff;
+  font-size: large;
+  font-weight: bold;
+  
+  
   text-decoration: none;
+}
+.takli:hover{
+  background-color: #fff;
+  color: black;
+  border: 2px solid black;
+}
+.tnav {
+  margin-left: 60px;
+  width: 200px;
+}
+.tackmain {
+  position: absolute;
+  margin-left: 200px;
 }
