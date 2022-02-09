@@ -17,6 +17,10 @@ const HomeScreen = () => {
           experience!
         </p>
       </div>
+      <div className="explor">
+        <h1 className="h3q text-dark">EXPLORE</h1>
+      </div>
+
     </div>
   );
 };

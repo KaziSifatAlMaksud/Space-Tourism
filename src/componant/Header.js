@@ -22,7 +22,7 @@ const Header = () => {
               00 HOME
             </Link>
 
-            <Link className="li  px-4" to="/dstination/1">
+            <Link className="li text-white px-4" to="/dstination/1">
               01 DSTINATION
             </Link>
 
