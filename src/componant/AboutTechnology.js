@@ -8,7 +8,7 @@ const AboutTechnology = () => {
   const { id } = useParams();
   const product = technology.find((x) => x._id === id);
   return (
-    <div>
+    <>
       <div className="tackList">
         <Row>
           <Col className="tnav px-3" style={{ marginTop: "100px" }}>
@@ -34,13 +34,13 @@ const AboutTechnology = () => {
           </Col>
 
           <Col>
-            <Row style={{ width: "600px" }}>
+            <Row style={{ width: "500px" }}>
               <Image className="tacimage" src={product.image} alt={product.image} />
             </Row>
           </Col>
         </Row>
       </div>
-    </div>
+    </>
   );
 };
 

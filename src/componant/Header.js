@@ -1,10 +1,19 @@
 import React from "react";
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar,Image } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { LinkContainer } from "react-router-bootstrap";
+import logo1 from "../image/logo1.svg";
 const Header = () => {
   return (
     <>
+    <div className="headerlogo">
+    <Image src={logo1} alt={logo1} fluid />
+    
+    </div>
+
+    <hr className="line" style={{borderTop: '1px solid white'}}/>
+    
+    
       <Navbar className="navim" variant="dark" expand="lg">
         <Container>
           <Link to="/"></Link>

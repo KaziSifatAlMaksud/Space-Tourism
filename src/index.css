@@ -16,6 +16,19 @@ body {
   width: 100%;
   z-index: -1;
 }
+.headerlogo {
+  position: absolute;
+margin-top: 20px;
+  margin-left: 100px;
+}
+.line {
+  position: absolute;
+  width: 50%;
+  margin-top: 38px;
+  margin-left: 220px;
+  z-index: 3;
+  
+}
 .navim {
   position: absolute;
   color: #fff;
@@ -66,8 +79,9 @@ body {
   position: absolute;
   margin-left: -190%;
 }
-.tackList {
+.tackList {  
   width: 100%;
+  overflow: hidden;
   margin-top: 15%;
 }
 .dst-row {
