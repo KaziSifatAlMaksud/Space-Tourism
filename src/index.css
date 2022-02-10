@@ -32,8 +32,7 @@ body {
 }
 .h3q {
   margin-top: 40%;
-  margin-left:32% ;
-
+  margin-left: 32%;
 }
 .line {
   position: absolute;
@@ -93,7 +92,6 @@ body {
   margin-left: -190%;
 }
 .tackList {
-  width: 100%;
   overflow: hidden;
   margin-top: 15%;
 }
@@ -126,13 +124,53 @@ body {
 }
 .tnav {
   margin-left: 80px;
-  width: 200px;
+  width: 150px;
 }
 .tackmain {
   position: absolute;
   margin-left: 290px;
 }
 .tacimage {
-  position: relative;
-  margin-left: 200px;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: -6%;
+  width: 450px;
+  height: 600px;
+  
+}
+.takNav {
+  position: absolute;
+}
+.crewsi{
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 15%;
+  justify-content: space-between;
+  display: flex;
+  width: 150px;
+  height: 20px;
+}
+.lo{
+  justify-content: space-between;
+  padding-left: 10px;
+  text-decoration: none;
+  background-color: gray;
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 50%;
+}
+.lo:hover {
+  justify-content: space-between;
+  padding-left: 10px;
+  text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+}
+.dot{
+  color: gray;
+  position: absolute;
+  margin-left: -9px;
+  margin-top: -5px;
 }
