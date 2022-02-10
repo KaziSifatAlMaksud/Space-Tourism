@@ -9,14 +9,12 @@ const TechnologyScreen = () => {
   const product = technology.find((x) => x._id === id);
   return (
     <div>
-      return (
       <div
         className="background-img"
         style={{ backgroundImage: `url(${image3})` }}
       >
         <AboutTechnology />
       </div>
-      );
     </div>
   );
 };

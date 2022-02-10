@@ -1,12 +1,12 @@
 import React from "react";
 import image3 from "../image/background-crew-desktop.jpg";
-import info from "../info";
-import Discription from "../componant/Discription";
+import crew from '../crew';
 import { useParams } from "react-router-dom";
+import AboutCrew from "../componant/AboutCrew";
 const CrewScreen = () => {
   const { id } = useParams();
   console.log(id);
-  const product = info.find((x) => x._id === id);
+  const product = crew.find((x) => x._id === id);
   return (
     <div>
       return (
@@ -14,7 +14,7 @@ const CrewScreen = () => {
         className="background-img"
         style={{ backgroundImage: `url(${image3})` }}
       >
-        <Discription id={id} />
+        <AboutCrew id={id} />
       </div>
       );
     </div>
